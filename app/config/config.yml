@@ -65,3 +65,24 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+
+# EasyAdminBundle
+easy_admin:
+    site_name: 'Administrador'
+    design:
+        brand_color: '#1ABC9C'
+        #color_scheme: 'light'
+    # entities:
+    #     Entidad1:
+    #         class: AppBundle\Entity\Entidad1
+    #     Entidad2:
+    #         class: AppBundle\Entity\Entidad2
+
+# VichUploaderBundle
+vich_uploader:
+    db_driver: orm # or mongodb or propel or phpcr
+    # mappings:
+    #     product_image:
+    #         uri_prefix: /images/products
+    #         upload_destination: '%kernel.project_dir%/public/images/products'

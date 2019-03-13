@@ -7,8 +7,7 @@
         "psr-4": { "": "src/" },
         "files": [ "app/AppKernel.php" ]
     },
-    "require": {
-        "php": "<=5.4.45",
+    "require": {        
         "symfony/symfony": "2.8.*",
         "doctrine/orm": "^2.4.8",
         "doctrine/doctrine-bundle": "~1.4",
@@ -19,7 +18,8 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "easycorp/easyadmin-bundle": "1.x",
         "vich/uploader-bundle": "0.14.0",
-        "fzaninotto/faker": "1.8"
+        "fzaninotto/faker": "1.8",
+        "webonaute/doctrine-fixtures-generator-bundle": "1.2"
     },
     "require-dev": {
         "sensio/generator-bundle": "~3.0",

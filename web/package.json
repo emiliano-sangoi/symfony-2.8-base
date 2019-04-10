@@ -1,0 +1,30 @@
+{
+  "name": "symfony-2.8-base",
+  "version": "1.0.0",
+  "description": "Dependencias basicas para un proyecto en Symfony",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Symfony 2.8"
+  ],
+  "author": "Emiliano Sangoi",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-datepicker": "^1.8.0",
+    "css-spaces": "^0.3.5",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7",
+    "select2": "^4.0.6-rc.1"
+  },
+  "devDependencies": {
+    "clean-css": "^4.2.1"
+  }
+}

@@ -18,6 +18,10 @@ class AppKernel extends Kernel
             new AppBundle\AppBundle(),
             new EasyCorp\Bundle\EasyAdminBundle\EasyAdminBundle(),
             new Vich\UploaderBundle\VichUploaderBundle(),
+
+            // https://symfony.com/doc/1.3.x/bundles/FOSUserBundle/index.html
+            // Descomentar para habilitar FOSUserBundle:
+            // new FOS\UserBundle\FOSUserBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {

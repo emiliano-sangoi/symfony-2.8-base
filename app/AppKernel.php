@@ -30,7 +30,11 @@ class AppKernel extends Kernel
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
             $bundles[] = new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle();
-            $bundles[] = new Webonaute\DoctrineFixturesGeneratorBundle\DoctrineFixturesGeneratorBundle();
+            
+            // Bundle para generar fixtures a partir de datos existentes en la base de datos:
+            //      https://github.com/Webonaute/DoctrineFixturesGeneratorBundle
+            // Activar, usar, desactivar:
+            //$bundles[] = new Webonaute\DoctrineFixturesGeneratorBundle\DoctrineFixturesGeneratorBundle();
         }
 
         return $bundles;
